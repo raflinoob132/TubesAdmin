@@ -1,0 +1,38 @@
+<!-- res/layout/activity_admin.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/buttonEditMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Menu Restoran" />
+
+    <Button
+        android:id="@+id/buttonRecommendMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rekomendasi Menu Restoran" />
+
+    <Button
+        android:id="@+id/buttonViewPendingOrders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lihat Pesanan yang Belum Selesai" />
+
+    <Button
+        android:id="@+id/buttonViewOrderLog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lihat Log Pesanan" />
+
+    <Button
+        android:id="@+id/buttonPreviewMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Preview Menu" />
+
+</LinearLayout>

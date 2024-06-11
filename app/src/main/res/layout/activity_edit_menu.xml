@@ -1,0 +1,51 @@
+<!-- res/layout/activity_edit_menu.xml -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/foodName"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Nama Makanan" />
+
+        <EditText
+            android:id="@+id/foodDescription"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:hint="Deskripsi Makanan" />
+
+        <EditText
+            android:id="@+id/foodPrice"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:hint="Harga Makanan"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/buttonSelectImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pilih Foto Makanan" />
+
+        <ImageView
+            android:id="@+id/foodImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simpan Menu" />
+
+    </LinearLayout>
+</ScrollView>

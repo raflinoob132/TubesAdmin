@@ -1,0 +1,51 @@
+<!-- res/layout/activity_edit_minuman.xml -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/drinkName"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="Nama Minuman" />
+
+        <EditText
+            android:id="@+id/drinkDescription"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:hint="Deskripsi Minuman" />
+
+        <EditText
+            android:id="@+id/drinkPrice"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:hint="Harga Minuman"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/buttonSelectImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pilih Foto Minuman" />
+
+        <ImageView
+            android:id="@+id/drinkImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simpan Minuman" />
+
+    </LinearLayout>
+</ScrollView>
